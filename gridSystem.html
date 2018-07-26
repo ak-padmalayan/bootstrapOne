@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <title>Grid System</title>
+    <style>
+        .divOne {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h4 class="text-center">12 Equal Colums</h4>
+    <section class="container">
+        <div class="row">
+            <div class="col divOne">Equal</div>
+            <div class="col divOne">Equal</div>
+            <div class="col divOne">Equal</div>
+            <div class="col divOne">Equal</div>
+            <div class="col divOne">Equal</div>
+            <div class="col divOne">Equal</div>
+            <div class="col divOne">Equal</div>
+            <div class="col divOne">Equal</div>
+            <div class="col divOne">Equal</div>
+            <div class="col divOne">Equal</div>
+            <div class="col divOne">Equal</div>
+            <div class="col divOne">Equal</div>
+        </div>
+        <hr>
+    </section>
+
+    <h4 class="text-center">Nested Columns</h4>
+    <section class="container">
+        <div class="row">
+            <div class="col divOne">Parent1
+                <div class="row">
+                    <div class="col divOne">Child1</div>
+                    <div class="col divOne">Child2</div>
+                </div>
+            </div>
+            <div class="col divOne">Parent2</div>
+        </div>
+        <hr>
+    </section>
+
+    <h4 class="text-center">Column Width Classes</h4>
+    <section class="container">
+        <div class="row">
+                <div class="col-3 divOne">col-3(3)</div>
+                <div class="col-4 divOne">col-4(4)</div>
+                <div class="col   divOne">auto(12-(3+4))</div>
+        </div>
+        <div class="row">
+            <div class="w-50 divOne">w-50</div>
+            <div class="w-25 divOne">w-25</div>
+            <div class="w-25 divOne">w-25</div>
+        </div>
+        <hr>
+    </section>    
+
+    <h4 class="text-center">title</h4>
+    <section class="container">
+        
+        <hr>
+    </section>
+   
+</body>
+
+</html>
